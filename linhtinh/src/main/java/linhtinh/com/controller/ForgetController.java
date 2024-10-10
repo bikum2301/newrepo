@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import linhtinh.com.service.IUserService;
 import linhtinh.com.service.impl.UserServiceImpl;
-
 @WebServlet(urlPatterns = { "/forget" })
 public class ForgetController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
